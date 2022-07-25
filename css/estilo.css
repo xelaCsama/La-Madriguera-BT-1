@@ -57,6 +57,7 @@ h2 {
     top: 0;
     display: flex;
     margin: 10px 30px;
+    z-index: 5000;
 }
 
 .navbar__li a{
@@ -320,3 +321,23 @@ label.form-label {
   justify-content: center; 
 }
 /*TERMINA FORMULARIO*/
+
+
+/*ANIMACIONES*/
+
+.rotate:hover{
+    transform: rotateZ(360deg);
+    cursor: crosshair;
+    transition: transform 2s;
+}
+
+.transform:hover{
+    transform: translate(30px,15px);
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.bg-integrantes{
+    background: rgb(0,0,0);
+    background: linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(22,79,7,0.8211659663865546) 50%, rgba(0,0,0,1) 100%);
+}

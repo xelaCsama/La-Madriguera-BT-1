@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "sass": "^1.54.0"
+  },
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  css/estilo.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xelaCsama/La-Madriguera-BT-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xelaCsama/La-Madriguera-BT-1/issues"
+  },
+  "homepage": "https://github.com/xelaCsama/La-Madriguera-BT-1#readme",
+  "description": ""
+}

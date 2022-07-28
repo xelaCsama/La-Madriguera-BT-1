@@ -1,0 +1,60 @@
+.forminput {
+    min-width: 25%;
+    max-width: 600px;
+    border-top: 3px #367833 solid;
+    background: #b6b3b3;
+    box-shadow: 5px 5px black;
+    flex-wrap: wrap; 
+  }
+  
+  .forminput:focus {
+      background-color: #fffadb;
+      border-top: 3px black solid; 
+  }
+  
+  .formcomentarios {
+    min-width: 30%;
+    max-width: 600px;
+    background: #b6b3b3;
+    border-top: 3px #367833 solid;
+    box-shadow: 5px 5px black;
+    resize: none;
+    flex-wrap: wrap;
+    margin: 10px; 
+  }
+  
+  .formcomentarios:focus {
+      background-color: #fffadb;
+      border-top: 5px black solid; 
+  }
+  
+  .formselect {
+    min-width: 25%;
+    max-width: 600px;
+    margin: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    background: #b9b8b8;
+    border-top: 3px #367833 solid;
+    flex-wrap: wrap; 
+  }
+  
+  .formselect:focus {
+      background-color: #fffadb;
+      border-top: 3px black solid; 
+  }
+  
+  label.form-label {
+    color: #ffffdc;
+    text-align: center; 
+  }
+  
+  .formemail,
+  .formtext-area,
+  .formnombre,
+  .botonenviar {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+  }

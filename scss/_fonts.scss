@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+$textXl:5rem;
+$textLg:3rem;
+$textMd:2.4rem;
+$textSm:2rem;
+$textXsm:1.2rem;
+
+
+$textRegular:400;
+$textLight:300;
+
+
+.text__list{
+    font-size: $textMd;
+    font-weight: $textLight;
+    text-decoration: none;
+    color: $textColor;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.text__aside{
+    font-size: $textMd;
+    font-weight: $textLight;
+    text-decoration: none;
+    color: $textColor;
+    text-align: center;
+    margin-top: 13%;
+}
+
+.text__p{
+    font-size: $textSm;
+    line-height: $textLg;
+    font-weight: $textLight;
+    color: $textColor;
+    text-align: center;
+    margin: auto 70px;
+}
+.text__p--sm{
+    font-size: $textXsm;
+    line-height: $textLg;
+    font-weight: $textLight;
+    color: $textColor;
+    text-align: center;
+    margin: 20px 70px;
+}
+.text__color--fg{
+    color: $fgColor;
+}
+
+.text__index{
+    text-align: left;
+    font-size: $textSm;
+    font-weight: $textLight;
+    color: $textColor;
+}
+
+.text__video{
+    font-size: $textSm;
+    font-weight: $textLight;
+    color: $fgColor;
+}

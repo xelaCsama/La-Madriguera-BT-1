@@ -1,0 +1,24 @@
+
+.container__integrantes{
+    display: flex;
+    gap: 3px;
+}
+
+.box-integrantes{
+    max-width: 450px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    border: solid 1px $bgBlack;
+    background-color: $bgGrey;
+}
+
+.flex-integrantes{
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+    
+.bg-integrantes{
+    background: $bgBlack;
+    background: $bgcardColor;
+}

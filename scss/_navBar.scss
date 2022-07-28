@@ -1,0 +1,27 @@
+
+.navbar__test{
+    background-color:$navbgColor;
+    font-size:$textMd;
+    font-weight:$textRegular;
+    position: sticky;
+    top: 0;
+    display: flex;
+    margin: 10px 30px;
+    z-index: 5000;
+
+    div{
+        justify-content: space-evenly;
+        a{
+            justify-content: space-evenly;
+            color: $navliColor;
+            &:hover{
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+
+.navbar__logo {
+    height: 60px;
+}

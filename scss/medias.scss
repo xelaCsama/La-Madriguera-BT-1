@@ -1,0 +1,27 @@
+
+
+.transformlight:hover{
+    transform: traslate(0px,10px);
+    cursor: crosshair;
+    transition: transform 2s;
+}
+
+.transform:hover{
+    transform: translate(30px,15px);
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+
+.video{
+    max-width: 100%;
+    height: auto;
+}
+.video__div{
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.img__body{
+    max-width: 100%;
+}

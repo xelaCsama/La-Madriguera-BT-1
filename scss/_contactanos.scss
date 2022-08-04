@@ -1,0 +1,64 @@
+
+.forminput {
+    min-width: 25%;
+    max-width: 600px;
+    border-top: 3px map-get($map: $defaultColors, $key:'cinco') solid;
+    background: map-get($map: $formColors, $key:'uno');
+    box-shadow: 5px 5px map-get($map: $defaultColors, $key:'seis');
+    flex-wrap: wrap;
+    
+    &:focus{
+      background-color: map-get($map: $formColors, $key:'dos');
+      border-top: 3px map-get($map: $defaultColors, $key:'seis') solid;
+    }
+  }
+  
+
+  .formcomentarios {
+    min-width: 30%;
+    max-width: 600px;
+    background: map-get($map: $formColors, $key:'uno');
+    border-top: 3px map-get($map: $defaultColors, $key:'cinco') solid;
+    box-shadow: 5px 5px map-get($map: $defaultColors, $key:'seis');
+    resize: none;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    &:focus{
+      background-color: map-get($map: $formColors, $key:'dos');
+      border-top: 5px map-get($map: $defaultColors, $key:'seis') solid;
+    }
+  }
+  
+
+  .formselect {
+    min-width: 25%;
+    max-width: 600px;
+    margin: 10px;
+    box-shadow: 5px 5px map-get($map: $defaultColors, $key:'siete');
+    background: map-get($map: $formColors, $key:'tres');
+    border-top: 3px map-get($map: $defaultColors, $key:'cinco') solid;
+    flex-wrap: wrap; 
+
+    &:focus{
+      background-color: map-get($map: $formColors, $key:'dos');
+      border-top: 3px map-get($map: $defaultColors, $key:'seis') solid;
+    }
+  }
+  
+  
+  label.form-label {
+    color: map-get($map: $formColors, $key:'cuatro');
+    text-align: center;
+  }
+  
+  .formemail,
+  .formtext-area,
+  .formnombre,
+  .botonenviar {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+  }

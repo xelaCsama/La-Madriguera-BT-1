@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 
@@ -11,54 +12,53 @@ $textXsm:1.2rem;
 $textRegular:400;
 $textLight:300;
 
+@mixin textOne($size, $align, $weight){
+    font-size: $size;
+    text-align: $align;
+    font-weight: $weight;
+}
 
-.text__list{
-    font-size: $textMd;
+.text__default{
     font-weight: $textLight;
     text-decoration: none;
-    color: $textColor;
     text-align: center;
+    color: map-get($map: $defaultColors, $key:'cuatro');
+}
+
+.text__list{
+    @extend .text__default;
+    font-size: $textMd;
     margin: 30px 50px;
 }
 
 .text__aside{
+    @extend .text__default;
     font-size: $textMd;
-    font-weight: $textLight;
-    text-decoration: none;
-    color: $textColor;
-    text-align: center;
     margin-top: 13%;
 }
 
 .text__p{
+    @extend .text__default;
     font-size: $textSm;
     line-height: $textLg;
-    font-weight: $textLight;
-    color: $textColor;
-    text-align: center;
     margin: auto 70px;
 }
 .text__p--sm{
+    @extend .text__default;
     font-size: $textXsm;
     line-height: $textLg;
-    font-weight: $textLight;
-    color: $textColor;
-    text-align: center;
     margin: 20px 70px;
 }
 .text__color--fg{
-    color: $fgColor;
+    color: map-get($map: $defaultColors, $key:'cinco');
 }
 
 .text__index{
-    text-align: left;
-    font-size: $textSm;
-    font-weight: $textLight;
-    color: $textColor;
+    @include textOne($textSm, left , $textLight);
+    color: map-get($map: $defaultColors, $key:'cuatro');
 }
 
 .text__video{
-    font-size: $textSm;
-    font-weight: $textLight;
-    color: $fgColor;
+    @include textOne($textSm, center ,$textLight);
+    color: map-get($map: $defaultColors, $key:'cinco');
 }

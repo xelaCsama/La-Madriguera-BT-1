@@ -3,7 +3,7 @@
     font-size: $textSm;
     line-height: $textLg;
     font-weight: $textLight;
-    color: $textColor   ;
+    color: map-get($map: $defaultColors, $key:'cuatro');
     text-align: center;
 }
 

@@ -1,16 +1,19 @@
+$defaultColors:(
+    'uno': #4E9F3D,
+    'dos': #1E5128,
+    'tres': #93C473,
+    'cuatro': #D8E9A8,
+    'cinco': #367833,
+    'seis': black,
+    'siete':#1B281D66,
+    'ocho': linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(22,79,7,0.8211659663865546) 50%, rgba(0,0,0,1) 100%),);
 
-$titleColor:#4E9F3D;
-$navbgColor:#1E5128;
-$navliColor:#93C473;
-$textColor:#D8E9A8;
-$fgColor:#367833;
-$primaryformColor:#b6b3b3;
-$secondaryformColor:#fffadb;
-$thirdformColor:#b9b8b8;
-$fourthformColor:#ffffdc;
-$bgcardColor:linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(22,79,7,0.8211659663865546) 50%, rgba(0,0,0,1) 100%);
-$bgBlack:black;
-$bgGrey:#1B281D66;
+
+$formColors:(
+    'uno': #b6b3b3,
+    'dos': #fffadb,
+    'tres': #b9b8b8,
+    'cuatro': #ffffdc,);
 
 .h-1300{
     height: 1300px;

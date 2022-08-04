@@ -137,6 +137,117 @@ h2 {
   height: 60px;
 }
 
+.forminput {
+  min-width: 25%;
+  max-width: 600px;
+  border-top: 3px #367833 solid;
+  background: #b6b3b3;
+  box-shadow: 5px 5px black;
+  flex-wrap: wrap;
+}
+
+.forminput:focus {
+  background-color: #fffadb;
+  border-top: 3px black solid;
+}
+
+.formcomentarios {
+  min-width: 30%;
+  max-width: 600px;
+  background: #b6b3b3;
+  border-top: 3px #367833 solid;
+  box-shadow: 5px 5px black;
+  resize: none;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.formcomentarios:focus {
+  background-color: #fffadb;
+  border-top: 5px black solid;
+}
+
+.formselect {
+  min-width: 25%;
+  max-width: 600px;
+  margin: 10px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  background: #b9b8b8;
+  border-top: 3px #367833 solid;
+  flex-wrap: wrap;
+}
+
+.formselect:focus {
+  background-color: #fffadb;
+  border-top: 3px black solid;
+}
+
+label.form-label {
+  color: #ffffdc;
+  text-align: center;
+}
+
+.formemail,
+.formtext-area,
+.formnombre,
+.botonenviar {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__integrantes {
+  display: flex;
+  gap: 3px;
+}
+
+.box-integrantes {
+  max-width: 450px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px 10px;
+  border: solid 1px black;
+  background-color: rgba(27, 40, 29, 0.4);
+}
+
+.flex-integrantes {
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.bg-integrantes {
+  background: black;
+  background: linear-gradient(47deg, rgb(0, 0, 0) 0%, rgba(22, 79, 7, 0.8211659664) 50%, rgb(0, 0, 0) 100%);
+}
+
+.transformlight:hover {
+  transform: translate(1px, 10px);
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.transform:hover {
+  transform: translate(30px, 15px);
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.video {
+  max-width: 100%;
+  height: auto;
+}
+
+.video__div {
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+.img__body {
+  max-width: 100%;
+}
+
 .container__productos {
   font-size: 2rem;
   line-height: 3rem;

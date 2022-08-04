@@ -9,8 +9,8 @@
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px 10px;
-    border: solid 1px $bgBlack;
-    background-color: $bgGrey;
+    border: solid 1px map-get($map: $defaultColors, $key:'seis');
+    background-color: map-get($map: $defaultColors, $key:'siete');
 }
 
 .flex-integrantes{
@@ -19,6 +19,6 @@
 }
     
 .bg-integrantes{
-    background: $bgBlack;
-    background: $bgcardColor;
+    background: map-get($map: $defaultColors, $key:'seis');
+    background: map-get($map: $defaultColors, $key:'ocho');
 }

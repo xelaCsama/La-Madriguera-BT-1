@@ -1,6 +1,6 @@
 
 .navbar__test{
-    background-color:$navbgColor;
+    background-color:map-get($map: $defaultColors, $key:'dos');
     font-size:$textMd;
     font-weight:$textRegular;
     position: sticky;
@@ -13,7 +13,7 @@
         justify-content: space-evenly;
         a{
             justify-content: space-evenly;
-            color: $navliColor;
+            color: map-get($map: $defaultColors, $key:'tres');
             &:hover{
                 font-weight: bolder;
             }

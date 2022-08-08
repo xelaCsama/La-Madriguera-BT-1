@@ -20,39 +20,32 @@
   height: 480px;
 }
 
-.text__list {
-  font-size: 2.4rem;
+.text__default, .text__p--sm, .text__p, .text__aside, .text__list {
   font-weight: 300;
   text-decoration: none;
-  color: #D8E9A8;
   text-align: center;
+  color: #D8E9A8;
+}
+
+.text__list {
+  font-size: 2.4rem;
   margin: 30px 50px;
 }
 
 .text__aside {
   font-size: 2.4rem;
-  font-weight: 300;
-  text-decoration: none;
-  color: #D8E9A8;
-  text-align: center;
   margin-top: 13%;
 }
 
 .text__p {
   font-size: 2rem;
   line-height: 3rem;
-  font-weight: 300;
-  color: #D8E9A8;
-  text-align: center;
   margin: auto 70px;
 }
 
 .text__p--sm {
   font-size: 1.2rem;
   line-height: 3rem;
-  font-weight: 300;
-  color: #D8E9A8;
-  text-align: center;
   margin: 20px 70px;
 }
 
@@ -61,14 +54,15 @@
 }
 
 .text__index {
-  text-align: left;
   font-size: 2rem;
+  text-align: left;
   font-weight: 300;
   color: #D8E9A8;
 }
 
 .text__video {
   font-size: 2rem;
+  text-align: center;
   font-weight: 300;
   color: #367833;
 }
@@ -145,7 +139,6 @@ h2 {
   box-shadow: 5px 5px black;
   flex-wrap: wrap;
 }
-
 .forminput:focus {
   background-color: #fffadb;
   border-top: 3px black solid;
@@ -161,7 +154,6 @@ h2 {
   flex-wrap: wrap;
   margin: 10px;
 }
-
 .formcomentarios:focus {
   background-color: #fffadb;
   border-top: 5px black solid;
@@ -171,12 +163,11 @@ h2 {
   min-width: 25%;
   max-width: 600px;
   margin: 10px;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px rgba(27, 40, 29, 0.4);
   background: #b9b8b8;
   border-top: 3px #367833 solid;
   flex-wrap: wrap;
 }
-
 .formselect:focus {
   background-color: #fffadb;
   border-top: 3px black solid;
